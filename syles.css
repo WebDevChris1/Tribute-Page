@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f0efeb;
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container-1 > div {
+  height: 400px;
+  width: 400px;
+
+  margin: 5%;
+  padding: 20px;
+}
+
+li {
+  text-align: left;
+}
+
+.img-1933-1938 {
+  background-image: url(./images/hitler-election.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
