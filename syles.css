@@ -19,6 +19,12 @@ section {
   width: 100vw;
 }
 
+section > div {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+}
+
 .container-1 {
   height: 100%;
   width: 100%;
@@ -27,22 +33,51 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
+  border: 1px solid blue;
 }
 
 .container-1 > div {
-  height: 400px;
+  height: 50%;
   width: 400px;
-
-  margin: 5%;
-  padding: 20px;
+  border: 1px solid red;
+  position: relative;
 }
 
 li {
   text-align: left;
 }
 
+.img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .img-1933-1938 {
   background-image: url(./images/hitler-election.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
+}
+
+.img-1939 {
+  background-image: url(./images/poland-division.jpeg);
+}
+
+.img-1940 {
+  background-image: url(./images/london-blitz.jpeg);
+}
+
+.text {
+  padding: 10px 10px;
+}
+
+h6 {
+  background-color: #f0efeb;
+  margin: 0;
+  padding: 0;
+}
+.caption {
+  position: absolute;
+  top: 96.5%;
+  width: 100%;
+  /* text-align: right; */
+  border: 1px solid chartreuse;
 }
