@@ -22,7 +22,6 @@ section {
 section > div {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid red;
 }
 
 .container-1 {
@@ -33,13 +32,11 @@ section > div {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid blue;
 }
 
 .container-1 > div {
   height: 50%;
   width: 400px;
-  border: 1px solid red;
   position: relative;
 }
 
@@ -65,8 +62,41 @@ li {
   background-image: url(./images/london-blitz.jpeg);
 }
 
+.img-1941 {
+  background-image: url(./images/leningrad.jpeg);
+}
+
+.img-1942 {
+  background-image: url(./images/midway.jpeg);
+}
+
+.img-1943 {
+  background-image: url(./images/germany-bombing.jpeg);
+}
+
+.img-1944 {
+  background-image: url(./images/d-day.jpeg);
+}
+
+.img-1945 {
+  background-image: url(./images/hiroshima.jpeg);
+}
+
 .text {
   padding: 10px 10px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  margin: 10px;
+  font-style: italic;
 }
 
 h6 {
@@ -74,10 +104,9 @@ h6 {
   margin: 0;
   padding: 0;
 }
+
 .caption {
   position: absolute;
   top: 96.5%;
   width: 100%;
-  /* text-align: right; */
-  border: 1px solid chartreuse;
 }
